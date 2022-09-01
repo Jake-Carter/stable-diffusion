@@ -1,0 +1,32 @@
+certifi==2022.6.15
+charset-normalizer==2.1.1
+idna==3.3
+Pillow==9.2.0
+requests==2.28.1
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.11.0+cu113
+torchaudio==0.11.0+cu113
+torchvision==0.12.0+cu113
+typing-extensions==4.3.0
+urllib3==1.26.12
+albumentations==0.4.3
+diffusers
+numpy==1.23.2
+opencv-python==4.1.2.30
+pudb==2019.2
+protobuf<3.20,>=3.9.2
+invisible-watermark
+imageio==2.9.0
+imageio-ffmpeg==0.4.2
+pytorch-lightning==1.4.2
+omegaconf==2.1.1
+test-tube>=0.7.5
+streamlit>=0.73.1
+einops==0.3.0
+torch-fidelity==0.3.0
+transformers==4.19.2
+torchmetrics==0.6.0
+kornia==0.6
+-e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+-e git+https://github.com/openai/CLIP.git@main#egg=clip
+-e .
